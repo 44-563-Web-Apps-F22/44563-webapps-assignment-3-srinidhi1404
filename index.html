@@ -80,8 +80,28 @@ One of the way to get from Heathrow to Madame Tussauds is by train:
     <td>Entire city</td>
     <td>3 days</td>
   </tr>
-  </table>
+</table>
 
+<br>
+<hr>
+<h3>Code display</h3>
+<blockquote cite="https://stackoverflow.com/questions/62848039/what-is-the-system-font-stack">
+  What is the system font stack?<br>
+  <a href="https://stackoverflow.com/questions/62848039/what-is-the-system-font-stack">Click here to know more</a>
+</blockquote>
+
+<pre>/* Define the "system" font family */
+  @font-face {
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 300;
+    src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+  }
+  
+  /* Now, let's apply it on an element */
+  body {
+    font-family: "system-ui";
+  }</pre>
 
 </body>
 </html>
